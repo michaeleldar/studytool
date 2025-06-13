@@ -913,6 +913,7 @@
       -ms-flex: 0 0 50%;
       flex: 0 0 50%;
       max-width: 50%;
+      text-align: center;
     }
     .col-sm-7 {
       -webkit-box-flex: 0;
