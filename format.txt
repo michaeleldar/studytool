@@ -1,0 +1,13 @@
+The study description file is split into two halves, the keyword "start" on its own on a line signifies the start of the second half.
+
+The first half provides a list of configuration options, each of which should be on their own line (if no answer is turned on so will no feedback):
+    autocorrect - tells the program to try to correct incorrect spellings in the user input
+    spanish/french/portuguese/german/italian/russian/arabic/basque/latvian/dutch/persian - sets the autocorrect language (if none is used defaults to english)  (will also turn on autocorrect)
+    case sensitive - if user gets capitalizations wrong the program will mark their answer is wrong (disabled by default)
+    repeat all - instead of not testing the user on an item once the user gets it right, it will repeat the entire set until the user gets everything correct
+    no answer - program will not tell the user if the user gets it right or wrong
+    no feedback - program will tell the user if they got it right or wrong but if they got it wrong, the program will not tell them the correct answer
+    log - records everything to a file specified as the second argument. It will ignore "no feedback" and "no answer" when recording to the file.
+    no repeat - only gives the user each question once. When used with "no feedback" and "log" it is similar to a test.
+
+In the second half each question and it's answer should be put on it's own line, with the question and answer seperated by a colon.
