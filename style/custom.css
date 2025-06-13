@@ -46,6 +46,7 @@ a {
 .container {
     padding: 0% 10%;
     color: rgb(0, 96, 205);
+    text-align: center;
 }
 
 .button {
