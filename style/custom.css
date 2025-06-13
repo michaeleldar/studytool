@@ -43,6 +43,10 @@ a {
     padding: 3px 0;
 }
 
+.col-sm-6 {
+    text-align: center;
+}
+
 .container {
     padding: 0% 10%;
     color: rgb(0, 96, 205);
